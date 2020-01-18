@@ -1,0 +1,18 @@
+ public class DataType {
+    
+ /* Int type */
+ byte myByte = 40;                // byte type variable，1 byte，value range -128~127
+ short myShort = 105;            // short type variable，2 bytes，value range -32768~32767
+ int myInt = 550;                // int type variable, 4 bytes, value range -2147483648~2147483647
+ long myLong = 85261636L;        // long type variable，8 bytes，value range -9223372036854775808~9223372036854775807
+  
+ /* floating point type */ 
+float myFloat = 25.821F;  // single precision floating point type variable，4 bytes，suffix 'F'or'f'，value range 1.4E-45~3.4028235E-38
+double myDouble = 25.821D; // Double precision floating point,8 bytes, suffix 'D'or'd'，value range 4.9E-324~1.7976931348623157E-308
+    
+/* Character type*/ 
+char myChar = 'z';      // Character type, 2 bytes, used with ' '.
+  
+/* Bool type */
+boolean myBoolean = true;        // Bool type is also called logic tyoe，only true and false.
+}
