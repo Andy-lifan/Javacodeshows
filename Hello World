@@ -1,0 +1,17 @@
+ package com.andylifan;                                       // define package
+ 
+ public class Structure {                                    // create class
+ 
+ static int num = 55;                                // define the member variable 
+   
+ public static void main(String[] args) {                // define the main method
+    
+ String str = "https://www.linkedin.com/in/hp-zhang(andy)-bb41154b/";        // define the local variable
+
+ System.out.println(num);                            // output the membervariable
+ 
+ System.out.println(str);                            // output the local variable
+
+                                        }
+ 
+                        }
